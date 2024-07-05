@@ -16,3 +16,17 @@ Ad esempio:
 Di cosa ho bisogno per generare i numeri?
 Proviamo sempre prima con dei console.log() per capire se stiamo ricevendo i dati giusti.
 Le validazioni e i controlli possiamo farli anche in un secondo momento.
+
+
+Creo una funzione per creare i quadrati 
+Dichiaro un bottone per iniziare il gioco
+Dichiaro una costante griglia
+Aggiungo una funzione al bottone
+    Creo un ciclo for che va da 1 a 100 in base al numero di celle della griglia
+    Dichiaro una variabile per creare i quadrati della griglia
+    Aggiungo i numeri all'interno dei quadrati
+    SE il resto dei numeri e' 0
+    ALLORA
+        toggle clicked-red
+    ALTRIMENTI
+        toggle clicked-orange
