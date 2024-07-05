@@ -10,3 +10,9 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+.square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
