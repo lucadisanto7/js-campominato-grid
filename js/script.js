@@ -15,13 +15,6 @@ for (let i = 0; i < 100; i++){
     let currentSquare = createSquare();
     currentSquare.addEventListener('click', function(){
         console.log(this);
-        if (this.innerText % 2 == 0){
-            this.classList.toggle('clicked-red');
-        }
-        else{
-            this.classList.toggle('clicked-orange');
-        }
-
     });
 
     currentSquare.innerText = i + 1;
