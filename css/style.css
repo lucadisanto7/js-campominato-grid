@@ -17,6 +17,9 @@
     align-items: center;
     width: calc(100% / 10);
     height: calc(100% / 10);
-    background-color: aquamarine;
+    background-color: white;
     border: 1px solid black;
+}
+.active {
+    background-color: lightblue;
 }

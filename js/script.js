@@ -15,6 +15,11 @@ for (let i = 0; i < 100; i++){
     let currentSquare = createSquare();
     currentSquare.addEventListener('click', function(){
         console.log(this);
+
+        currentSquare.addEventListener('click', function() {
+            this.classList.toggle('active');
+            console.log('Hai cliccato la casella numero:', this.innerText);
+        });
     });
 
     currentSquare.innerText = i + 1;
