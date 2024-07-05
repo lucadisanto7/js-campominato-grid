@@ -25,8 +25,3 @@ Aggiungo una funzione al bottone
     Creo un ciclo for che va da 1 a 100 in base al numero di celle della griglia
     Dichiaro una variabile per creare i quadrati della griglia
     Aggiungo i numeri all'interno dei quadrati
-    SE il resto dei numeri e' 0
-    ALLORA
-        toggle clicked-red
-    ALTRIMENTI
-        toggle clicked-orange
